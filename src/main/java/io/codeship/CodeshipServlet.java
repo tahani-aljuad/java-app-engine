@@ -10,6 +10,6 @@ public class CodeshipServlet extends HttpServlet {
     public void doGet(HttpServletRequest req, HttpServletResponse resp)
             throws IOException {
         resp.setContentType("text/plain");
-        resp.getWriter().println("Ship long and prosper!");
+        resp.getWriter().println("Ship long and fucking prosper, my friend!");
     }
 }
